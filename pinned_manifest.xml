@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="algo" fetch="git+ssh://git@gitlab.gwm.cn/HAVP-ALGO/"/>
+  <remote name="driver" fetch="git+ssh://git@gitlab.gwm.cn/GWM-AD-MW/base/soc/ros2/" revision="develop"/>
+  
+  <default remote="algo" revision="develop" sync-j="4"/>
+  
+  <project name="algooutput" revision="5651d6e8eb485099b5124ee5f812dd7004098ff7" upstream="develop" dest-branch="develop"/>
+  <project name="common" revision="33b53dfe6e1e572ea02f7010f0306a9469d3b516" upstream="develop" dest-branch="develop"/>
+  <project name="driver_interfaces" path="interface/driver_interfaces" remote="driver" revision="7604d1d9dcb35d2cfe4f299779138c3552440b64" upstream="develop" dest-branch="develop"/>
+  <project name="interface" path="interface/algo_interface" revision="f59a7f599a460fae26f747083731dd0ce0c04370" upstream="develop" dest-branch="develop"/>
+  <project name="msm" path="components/msm" revision="c24072386470162e2ec6874b6c4416f31b4e5220" upstream="develop" dest-branch="develop"/>
+  <project name="platform" revision="2b27a3fe460a1c0197e21b0d1d5b8c9005eeea7c" upstream="develop" dest-branch="develop"/>
+</manifest>
