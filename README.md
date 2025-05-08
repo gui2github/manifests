@@ -1,0 +1,1 @@
+验证repo通过manifest配置文件下载
